@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.tittle {
+  text-align: center;
+}
+
+.container {
+  background-color: rebeccapurple;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container__title {
+  text-align: center;
+}
+
+.container__placeholder {
+  text-align: center;
+  padding: 16px;
+  background-color: blue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container__keynumbers {
+  border: 1px solid;
+  margin: 8px auto;
+  width: 80%;
+}
+
+.container__keynumbers--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.container__keynumbers--key {
+  background-color: white;
+  border: 1px solid red;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.container__keynumbers--key:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=styles.css.map */
